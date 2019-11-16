@@ -5,7 +5,11 @@ imo = cv.imread('./Test Data/Screenshot_20191116_151213.png')
 img = cv.cvtColor(imo, cv.COLOR_BGR2GRAY)
 (thresh, imb) = cv.threshold(img, 127, 255, cv.THRESH_BINARY)
 
- 
+def rescale_frame(frame, wpercent=50, hpercent=50):
+    width = int(frame.shape[1] * wpercent / 100)
+    height = int(frame.shape[0] * hpercent / 100)
+    return cv.resize(frame, (width, height), interpolation=cv.INTER_AREA)
+
 
 #cv2.imshow('Original image',originalImage)
 #cv2.imshow('Gray image', grayImage)
@@ -37,8 +41,7 @@ for a in range(0,len(contours)):
         cv.circle(imo, (cx, cy), 4, (255, 0, 255),-1)
         cv.rectangle(imo,(x,y),(x+w,y+h),colour,1)
 
-
-cv.imshow('Black white image', imo)
+cv.imshow("recog", rescale_frame(imo))
   
 cv.waitKey(0)
 cv.destroyAllWindows()
