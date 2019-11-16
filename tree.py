@@ -13,4 +13,5 @@ class Tree:
         returnList.append(node.data)
         for child in node.children:
             self._traverse(child, returnList)
-        returnList.append(None)
+        if len(node.children) != 0:
+            returnList.append(None)
