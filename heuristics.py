@@ -40,4 +40,6 @@ def classify(pieceList):
 		t = tree.find(parent.id)
 		t.children.append(sym)
 
+	return tree
+
 
