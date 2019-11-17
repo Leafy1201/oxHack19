@@ -3,7 +3,9 @@ from PySide2.QtCore import (QAbstractTableModel, QDateTime, QModelIndex,
 
 
 from PySide2.QtWidgets import (QAction, QApplication, QHBoxLayout, QHeaderView,
-                               QMainWindow, QSizePolicy, QTableView, QWidget)
+                               QMainWindow, QSizePolicy, QTableView, QWidget, QLabel, QFileDialog, QVBoxLayout, QLineEdit)
+
+from PySide2.QtGui import (QPixmap)
 
 import sys
 
@@ -28,9 +30,22 @@ class MainWindow(QMainWindow):
         # Status Bar
         self.status = self.statusBar()
         self.status.showMessage("Ready")
+        # Picture
+        self.pictureLabel = QLabel(self)
+        # Output
+        #self.outputBox = QLineEdit()
+        self.outputBox = QLabel()
+        #self.outputBox.setReadOnly(True)
+        self.outputBox.setText("test")
+        # Layout
+        self.layout = QVBoxLayout()
+        self.layout.addWidget(self.pictureLabel,0)
+        self.layout.addWidget(self.pictureLabel,1)
+        self.layout.addStretch(2)
+        self.setLayout(self.layout)
         # Window dimensions
-        geometry = app.desktop().availableGeometry(self)
-        self.setFixedSize(geometry.width() * 0.8, geometry.height() * 0.7)
+        #geometry = app.desktop().availableGeometry(self)
+        #self.setFixedSize(geometry.width() * 0.8, geometry.height() * 0.7)
 
     @Slot()
     def exit_app(self, checked):
@@ -38,7 +53,9 @@ class MainWindow(QMainWindow):
 
     @Slot()
     def open_file(self):
-        pass
+        fileName = QFileDialog.getOpenFileName(self, "Open Image", "", "Image Files (*.png *.jpg *.bmp)")
+        self.pictureLabel.setPixmap(QPixmap(fileName))
+        #TODO Call into backend
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
