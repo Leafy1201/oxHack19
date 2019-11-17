@@ -1,7 +1,7 @@
 class Tree:
-    def __init__(self):
+    def __init__(self, data=None):
         self.children = []
-        self.data = None
+        self.data = data
     
     def traverse(self):
         returnList = []
