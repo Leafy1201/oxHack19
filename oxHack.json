@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "oxhack2019",
+  "private_key_id": "4432240ebee3a2edfebb97f5eebccac42c73d4dd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCJ+hgiZd7kHzoc\nynLnNBim2+qIJEx3hcdGN6NFLUDibn8ZMg/7a45kCeqGqeRqaJ/a+xoEiPPjH6TP\nR5FZ0RCE3eb2uAJUjdgidvNqDMEnyHo903rTmwDRwuknWMsv0JBrmSZv38qw4eMH\nm0LQd7WaaWwu2UIkI7ygQYY0Jp3jmK7+8KtnklK+hmUWFWuMWP0ptLGx2mrBUcGa\ndVZ5MGTuZwVcEG6ImpBJ9RRL9cC4YCNWFMB0HihnDSn99bFGPzqDjcy8SA3jTSvI\nQIxuuypsS41qhQxDudIh48x2F2I/GcW13+h0Qy/iwAYfKBHlTnTUPjVpx56FORtg\ns6eXdOzJAgMBAAECggEAECYI5xW8hZSGDP1A1NXga2m3xGFYixtJhxVXSERooK0a\ntmHemagtTStqmyzigqBmJ+SrAeGJhzPv6nak3g89pgoBUITuzjifwEDjHQQLI1Mv\nw3FZ9yQ1b1d8SaehzaHVFVLNEIZFHHiuRU34VEUpKGkISV9ngf/7bAI0k9alNLrr\nqYtw00bPuGLhVZI5U8xxkB9/GYEca2oUcC7Uu1m7qTtQAlgDsWOVGwtQfWbXtLCg\nKkLBjXHeXz5qtbqMEf2ddsuY7FU2wnXGs1dZP503xcxtRVHzjHSDhGUjS0b2QxR6\nwm1KDWTACGiLUembFjleaXDKLuxL3hKpdZWgib3/lQKBgQDCFbAEzDx6p00lZ1vR\nAWtmSb3nB8zuwTAuQkvV0VqZj3f9I+dxtJo13+ABruv5hh/0wtoLIWyVVeBbis/m\naLLqtiK0HdZDzcWhN/43UWoGvtXtqW48EkaKQa5KLyBopzN9itq4PWkw5+o3LzJ/\nEdIw+7Jfq9O8UOy9doBirhiYjwKBgQC1/kDZjuBOsF/Iy60aOZEPkxZm3GArNBom\nHtB1whBSwOcAu4ZQoZtGsN5XcV9FYb5vP8spusFKDJk449j68PuosINkRaOmKS5H\nc/Gtj3ehZuW353l2yhADJd0efkrihLp82TzovvlSPCGoRgDdlNjQ3PHueLoyHWKZ\nbQ0M4mDhJwKBgQCesH7gHWHh44MHbzA6fw+ibe7wxIcCPEE5wYkiBXAvmIfCGaY2\naTWhkTAmEDDvL4RXay4+5ZBTtgigsKn2OWr4z/0mCjNT8x6BCDg6YL3xT/24uczh\nHwxAJR3tmATGrNdD8dGNzOCCVU1C27tM/HRBCrs40FRqaDx5WTf192Uy7wKBgDoN\nXVBIhAJ1vkgFuDTaUgxexdGP0FlXqFOqlqJJgf1zrPwN1T1ZH3fAKVxJPLOcByvj\ndIHeIZPmSuXbwDXjstLPY0oT8KyrDCkcseXEEsv4T6SHALbEo7DtXghBDtAMuJPk\nk8pGSK9ToQTVN6d2uGZ/Y+jGt9YOi4oXQAdxGqgXAoGBAKBV04plqQsZ26HBg9ZV\n6Re6ji3sX4C8hXjiOHSS+bSt1xdDSmT498s5Z0tcXiP5zgUTtj2I+6Eo9iZMN9sI\n+WLhQ19422ph2UmxT2B8FPwbLcDTAWsXhtnKmNAbD7MQk1fEgSwm0lHd7EIywTOp\nPY4g4Yjxvo90nXyl7/xYgxqA\n-----END PRIVATE KEY-----\n",
+  "client_email": "oxhack@oxhack2019.iam.gserviceaccount.com",
+  "client_id": "102248955671090475254",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/oxhack%40oxhack2019.iam.gserviceaccount.com"
+}
